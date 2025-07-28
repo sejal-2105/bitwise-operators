@@ -1,12 +1,18 @@
 Bitwise operators in cpp
+
 AIM:-
 To study and implement bitwise operators in cpp
+
 Tools:-
 VScode and github
+
 Theory:-
-Bitwise operators perform operations on the binary representation of integers. The AND (&), OR (|), and XOR (^) operators compare bits and return a new value based on bit-level logic. The NOT (~) operator inverts all bits. The left shift (<<) and right shift (>>) operators shift bits to the left or right, effectively multiplying or dividing the number by powers of two.
+Bitwise operators perform operations on the binary representation of integers.
+The AND (&), OR (|), and XOR (^) operators compare bits and return a new value based on bit-level logic.
+The NOT (~) operator inverts all bits. The left shift (<<) and right shift (>>) operators shift bits to the left or right, effectively multiplying or dividing the number by powers of two.
 
 Bit manipulation allows setting or clearing specific bits. To set a bit at position n, the expression num | (1 << n) is used. To reset a bit at position n, the expression num & (~(1 << n)) is used. These techniques are essential for low-level programming and memory-efficient operations.
+
 Algorithm:-
 Part 1: Bitwise Operations
 1.Start the program.
